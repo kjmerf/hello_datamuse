@@ -1,5 +1,5 @@
 # hello_datamuse
-Query Datamuse. This repo can be used to query the Datamuse API:
+This repo can be used to query the Datamuse API:
 http://www.datamuse.com/api/
 
 I made it find words for the game codenames:
