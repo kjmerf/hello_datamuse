@@ -1,6 +1,5 @@
 #! /usr/bin/env python3
 
-from datascroller import scroll
 import numpy as np
 import pandas as pd
 import requests
@@ -78,6 +77,5 @@ class Muse:
         out = pd.merge(stats, queries_to_connect, on="word")
         out = pd.merge(out, queries_to_avoid, on="word", how="left")
         out.columns = ["word", "count", "sum", "product", "connections", "risks"]
-        out = out.nlargest(number_of_clues, "product")
 
-        return scroll(out)
+        return out.nlargest(number_of_clues, "product")
