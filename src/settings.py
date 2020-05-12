@@ -2,12 +2,12 @@
 
 words_to_connect = [
     {"word": "mole", "is_active": True},
-    {"word": "mount", "is_active": True},
+    {"word": "mount", "is_active": False},
     {"word": "ground", "is_active": True},
     {"word": "mail", "is_active": True},
     {"word": "angel", "is_active": True},
     {"word": "moon", "is_active": True},
-    {"word": "rose", "is_active": True},
+    {"word": "rose", "is_active": False},
     {"word": "bomb", "is_active": True},
     {"word": "club", "is_active": True},
 ]

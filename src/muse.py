@@ -25,7 +25,7 @@ class Muse:
         else:
             raise Exception(response.status_code)
 
-    def load_df(self, parameter="rel_jjb"):
+    def load_df(self, parameter="ml"):
 
         # for valid parameters see: http://www.datamuse.com/api/
 
